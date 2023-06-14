@@ -1350,10 +1350,9 @@ d3-octree@1:
   resolved "https://registry.yarnpkg.com/d3-quadtree/-/d3-quadtree-3.0.1.tgz#6dca3e8be2b393c9a9d514dabbd80a92deef1a4f"
   integrity sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==
 
-"d3-scale-chromatic@1 - 3":
+"d3-scale-chromatic@https://github.com/Shiianova-S/d3-scale-chromatic":
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/d3-scale-chromatic/-/d3-scale-chromatic-3.0.0.tgz#15b4ceb8ca2bb0dcb6d1a641ee03d59c3b62376a"
-  integrity sha512-Lx9thtxAKrO2Pq6OO2Ua474opeziKr279P/TKZsMAhYyNDD3EnCffdbgeSYN5O7m2ByQsxtuP2CSDczNUIZ22g==
+  resolved "https://github.com/Shiianova-S/d3-scale-chromatic#c63877f31898b72eabcad549a06515f1b2ec5013"
   dependencies:
     d3-color "1 - 3"
     d3-interpolate "1 - 3"
@@ -2232,10 +2231,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^3.20.2:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.20.2.tgz#f798c600317f216de2e4ad9f4d9ab30a89b690ff"
-  integrity sha512-3zwkBQl7Ai7MFYQE0y1MeQ15+9jsi7XxfrqwTb/9EK8D9C9+//EBR4M+CuA1KODRaNbFez/lWxA5vhEGZp4MUg==
+rollup@2:
+  version "2.79.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.1.tgz#bedee8faef7c9f93a2647ac0108748f497f081c7"
+  integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -2349,16 +2348,15 @@ terser@^5.15.1:
     commander "^2.20.0"
     source-map-support "~0.5.20"
 
-three-forcegraph@1:
-  version "1.41.7"
-  resolved "https://registry.yarnpkg.com/three-forcegraph/-/three-forcegraph-1.41.7.tgz#fa8ad11301197c2c19881d4c0f3183898cbbb97a"
-  integrity sha512-gnMhvj/NjIWqnke+ZPPqFhIpWc0W+KJwVF2Y16bO2FBObHWgYYBAA8yNhvilPAzOK4FyOUaA62CsTObQRgdMDA==
+"three-forcegraph@https://github.com/Shiianova-S/three-forcegraph":
+  version "1.41.9"
+  resolved "https://github.com/Shiianova-S/three-forcegraph#8cdbb6a9712654c378fb3a3455cdba6f41fa4a16"
   dependencies:
     accessor-fn "1"
     d3-array "1 - 3"
     d3-force-3d "2 - 3"
     d3-scale "1 - 4"
-    d3-scale-chromatic "1 - 3"
+    d3-scale-chromatic "https://github.com/Shiianova-S/d3-scale-chromatic"
     data-joint "1"
     kapsule "1"
     ngraph.forcelayout "3"
